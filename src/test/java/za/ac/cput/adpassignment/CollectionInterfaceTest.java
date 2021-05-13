@@ -11,12 +11,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CollectionsInterfaceTest {
-    private CollectionsInterface student;
+class CollectionInterfaceTest {
+    private CollectionInterface student;
 
     @BeforeEach
     void setUp() {
-      student = new CollectionsInterface();
+      student = new CollectionInterface();
     }
 
     //This test checks whether elements are being added to a TreeSet

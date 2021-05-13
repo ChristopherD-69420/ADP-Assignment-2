@@ -9,7 +9,7 @@ package za.ac.cput.adpassignment;
 import java.util.Collection;
 import java.util.TreeSet;
 
-public class CollectionsInterface {
+public class CollectionInterface {
 
     private Collection<String> collection = new TreeSet<>(String.CASE_INSENSITIVE_ORDER);
 
